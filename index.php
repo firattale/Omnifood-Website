@@ -357,24 +357,22 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
 
 
                 <div class="row">
+
                      <?php
 
-                     <div class="form-messages success">
-                        Alrighty then!Your message has been sent!
-                    </div>  
-                   <!--  <div class="form-messages error">
-                        Oops! Something went wrong!
-                    </div> -->
-                    
+                    if ($_GET['success'] == 1) {
+                        echo "<div class=\"form-messages     success\">Alrighty then!Your message has been sent!</div>";
+                    }
+
+                    if ($_GET['success'] == -1) {
+                        echo "<div class=\"form-messages error\">Oops! Something went wrong!</div>";
+                    }          
                     ?>
-                    
+
                 </div>
 
                     <div class="row">
-
-                   
-
-                   
+               
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
