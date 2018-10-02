@@ -6,8 +6,3 @@ A single website for a sample restaurant.
 
 - Google Maps Added- PHP form added
 
-- You can visit this website here :
-
-http://www.artuseng.com/omni/index.php
-
-
